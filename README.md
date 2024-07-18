@@ -1,5 +1,5 @@
-Portfolio
+Some projects I have been had creative input towards over the years ...
 
-[ELsa Science mobile apps](https://www.elsa.science/en/)
+[Elsa Science mobile apps](https://www.elsa.science/en/)
 
 [Elsa Science clinical dashboard](https://rdc.elsa.science/sign-in)
