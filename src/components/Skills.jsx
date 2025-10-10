@@ -4,41 +4,29 @@ import {
   FaCss3Alt,
   FaJs,
   FaReact,
-  FaNode,
   FaGitAlt,
   FaGithub,
-  FaDatabase,
-  FaLaptopCode,
-  FaServer,
-  FaNetworkWired,
   FaCode,
 } from 'react-icons/fa';
-import { SiTailwindcss, SiExpress, SiMongodb, SiFirebase, SiCplusplus, SiQt } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiFirebase, SiTypescript } from 'react-icons/si';
+import { RiSvelteFill } from "react-icons/ri";
 
 const skills = [
-  { name: 'C/C++', icon: SiCplusplus, color: 'text-blue-600' },
-  { name: 'DSA', icon: FaLaptopCode, color: 'text-yellow-600' }, // distinct icon/color for DSA
-  { name: 'OOPS', icon: FaCode, color: 'text-purple-600' }, // distinct color for OOPS
-  { name: 'DBMS', icon: FaDatabase, color: 'text-green-600' },
-  { name: 'SQL', icon: FaServer, color: 'text-indigo-600' },
-  { name: 'Operating Systems', icon: FaLaptopCode, color: 'text-orange-500' },
-  { name: 'Computer Networks', icon: FaNetworkWired, color: 'text-cyan-600' },
+
+  { name: 'JavaScript', icon: FaJs, color: 'text-yellow-400' },
+  { name: 'TypeScript', icon: SiTypescript, color: 'text-purple-400' },
+	{ name: 'React Native', icon: FaReact, color: 'text-cyan-400' },
+  { name: 'React.js', icon: FaReact, color: 'text-cyan-400' },
+
+  { name: 'Svelte', icon: RiSvelteFill, color: 'text-orange-500' },
   { name: 'HTML', icon: FaHtml5, color: 'text-orange-500' },
   { name: 'CSS', icon: FaCss3Alt, color: 'text-blue-500' },
-  { name: 'JavaScript', icon: FaJs, color: 'text-yellow-400' },
-  { name: 'React.js', icon: FaReact, color: 'text-cyan-400' },
-  { name: 'Node.js', icon: FaNode, color: 'text-green-500' },
-  { name: 'Express.js', icon: SiExpress, color: 'text-gray-500' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-400' },
   { name: 'MongoDB', icon: SiMongodb, color: 'text-green-500' },
   { name: 'Firebase', icon: SiFirebase, color: 'text-yellow-500' },
   { name: 'Git', icon: FaGitAlt, color: 'text-orange-500' },
   { name: 'GitHub', icon: FaGithub, color: 'text-gray-700 dark:text-white' },
-
-  { name: 'System Design', icon: FaLaptopCode, color: 'text-red-500' },
   { name: 'SDLC', icon: FaCode, color: 'text-indigo-700' },
-
-  { name: 'QT', icon: SiQt, color: 'text-teal-500' },
 ];
 
 const container = {
@@ -62,7 +50,7 @@ export default function Skills() {
       id="skills"
       className="section bg-gradient-to-r from-indigo-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-20"
     >
-      <div className="container max-w-5xl mx-auto px-4">
+      <div className="container max-w-6xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -95,7 +83,7 @@ export default function Skills() {
               aria-label={name}
             >
               <Icon className={`text-5xl ${color} mb-3`} />
-              <span className="text-base font-semibold text-gray-900 dark:text-gray-100">{name}</span>
+              <span className="text-base text-gray-900 dark:text-gray-100">{name}</span>
             </motion.div>
           ))}
         </motion.div>
