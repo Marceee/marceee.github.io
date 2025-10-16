@@ -21,31 +21,13 @@ export default function About() {
           </h2>
 
           <p className="text-lg leading-relaxed mb-8">
-            I'm a passionate <span className="font-semibold text-indigo-600">Software Engineer</span>
-            <span className="font-semibold text-pink-500"> .......</span>.
-            I enjoy building efficient and user-centric web solutions.With a strong grasp
-            <span className="font-semibold text-green-600"> Data Structures, Algorithms</span>, and core CS fundamentals.
+						Software Engineer with 6+ years of experience building scalable, efficient, and user-focused applications.
+						My core expertise is React, React Native, Svelte.
           </p>
-
-          <div className="flex justify-center gap-6">
-            <a
-                href="assets/Marcellinus_Sande_Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-purple-600 hover:bg-purple-700 transition-colors duration-300 text-white font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg"
-            >
-              View Resume
-            </a>
-
-            <a
-              href="assets/Marcellinus_Sande_Resume.pdf"
-              download
-              className="inline-flex items-center gap-3 bg-emerald-600 hover:bg-emerald-700 transition-colors duration-300 text-white font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg"
-            >
-              <FaDownload className="text-xl" />
-              Download Resume
-            </a>
-          </div>
+					<p className="text-lg leading-relaxed mb-8">
+						I am passionate about transforming ideas, design into intuitive digital experiences, collaborating closely with teams through every stage of the development cycle, from technical implementation to production.
+						My mission is to create software that’s not only functional, but efficient solutions that elevate the business.
+					</p>
         </motion.div>
       </div>
     </section>

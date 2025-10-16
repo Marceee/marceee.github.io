@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaCode } from 'react-icons/fa';
+import {FaCode, FaDownload} from 'react-icons/fa';
 
 const leftVariants = {
   hidden: { opacity: 0, x: -50 },
@@ -55,18 +55,23 @@ export default function Hero() {
             </motion.p>
 
             <motion.div variants={childVariant} className="flex flex-wrap gap-4">
-              <a
-                href="#projects"
-                className="px-8 py-3 rounded-lg bg-primary text-white shadow-md hover:bg-primary/90 transition duration-300"
-              >
-                View Projects
-              </a>
-              <a
-                href="#contact"
-                className="px-8 py-3 rounded-lg border-2 border-primary text-primary hover:bg-primary hover:text-white transition duration-300"
-              >
-                Contact Me
-              </a>
+								<a
+									href="assets/Marcellinus_Sande_Resume.pdf"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="inline-flex item9i9i9immikmju s-center gap-3 bg-purple-600 hover:bg-purple-700 transition-colors duration-300 text-white font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg"
+								>
+									View Resume
+								</a>
+
+								<a
+									href="assets/Marcellinus_Sande_Resume.pdf"
+									download
+									className="inline-flex items-center gap-3 bg-emerald-600 hover:bg-emerald-700 transition-colors duration-300 text-white font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg"
+								>
+									<FaDownload className="text-xl" />
+									Download Resume
+								</a>
             </motion.div>
           </motion.div>
 
