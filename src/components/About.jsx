@@ -26,7 +26,7 @@ export default function About() {
           </p>
 					<p className="text-lg leading-relaxed mb-8">
 						I am passionate about transforming ideas, design into intuitive digital experiences, collaborating closely with teams through every stage of the development cycle, from technical implementation to production.
-						My mission is to create software that’s not only functional, but efficient solutions that elevate the business.
+						My professional joy creating software that’s not only functional, but an efficient solution that elevates the business.
 					</p>
         </motion.div>
       </div>

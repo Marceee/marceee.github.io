@@ -29,25 +29,7 @@ const socialLinks = [
     url: 'mailto:marcelinusande@gmail.com',
     icon: FaEnvelope,
     color: 'text-red-600 hover:text-red-700 dark:text-red-400 dark:hover:text-red-500',
-  },
-  {
-    name: 'Twitter',
-    url: 'https://x.com/',
-    icon: FaTwitter,
-    color: 'text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-500',
-  },
-  {
-    name: 'Instagram',
-    url: 'https://www.instagram.com/',
-    icon: FaInstagram,
-    color: 'text-pink-500 hover:text-pink-600 dark:text-pink-400 dark:hover:text-pink-500',
-  },
-  {
-    name: 'LeetCode',
-    url: 'https://leetcode.com/',
-    icon: SiLeetcode,
-    color: 'text-yellow-600 hover:text-yellow-700 dark:text-yellow-400 dark:hover:text-yellow-500',
-  },
+  }
 ];
 
 export default function Contact() {
@@ -88,14 +70,10 @@ export default function Contact() {
           viewport={{ once: true }}
           className="bg-white dark:bg-gray-900 rounded-3xl shadow-xl p-10"
         >
-          <h2 className="text-4xl font-extrabold mb-6 text-gray-900 dark:text-white relative inline-block">
-            Get in Touch
-            <span className="block w-20 h-1 bg-indigo-600 rounded-full mt-3"></span>
+          <h2 className="text-3xl font-extrabold mb-6 text-gray-900 dark:text-white relative inline-block">
+            Reach Out
+            <span className="block w-50 h-1 bg-indigo-600 rounded-full mt-3"></span>
           </h2>
-
-          <p className="text-gray-700 dark:text-gray-300 mb-10">
-            Feel free to reach out for collaborations or just a friendly hello!
-          </p>
 
           <div className="grid md:grid-cols-2 gap-10">
             <motion.div
@@ -104,23 +82,16 @@ export default function Contact() {
               transition={{ duration: 0.7, ease: 'easeOut' }}
               viewport={{ once: true }}
             >
-             <h3 className="text-2xl font-semibold mb-6 text-indigo-600">
-  Contact Information
-</h3>
 
-<p className="flex items-center gap-3 text-gray-800 dark:text-gray-200 mb-4">
-  <FaEnvelope className="text-indigo-600 text-xl" />
-  <a
-    href="mailto:marcelinusande@gmail.com"
-    className="hover:text-indigo-700 transition-colors"
-  >
-    marcelinusande@gmail.com
-  </a>
-</p>
-
-              <h3 className="text-2xl font-semibold mb-4 text-indigo-600">
-                Socials
-              </h3>
+						<p className="flex items-center gap-3 text-gray-800 dark:text-gray-200 mb-4 mt-5">
+							<FaEnvelope className="text-indigo-600 text-xl" />
+							<a
+								href="mailto:marcelinusande@gmail.com"
+								className="hover:text-indigo-700 transition-colors"
+							>
+								marcelinusande@gmail.com
+							</a>
+						</p>
               <div className="flex flex-wrap gap-6 text-3xl">
                 {socialLinks.map(({ name, url, icon: Icon, color }) => (
                   <a
