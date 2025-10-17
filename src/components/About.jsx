@@ -15,11 +15,6 @@ export default function About() {
           viewport={{ once: true }}
           className="bg-white dark:bg-gray-900 rounded-3xl shadow-xl p-10 text-center"
         >
-          <h2 className="text-4xl font-extrabold mb-4 text-gray-900 dark:text-white relative inline-block">
-            About Me
-            <span className="block w-16 h-1 bg-indigo-600 rounded-full mt-2 mx-auto"></span>
-          </h2>
-
           <p className="text-lg leading-relaxed mb-8">
 						Software Engineer with 6+ years of experience building scalable, efficient, and user-focused applications.
 						My core expertise is React, React Native, Svelte.

@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
 import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaReact,
-  FaGitAlt,
-  FaGithub,
-  FaCode,
+	FaHtml5,
+	FaCss3Alt,
+	FaJs,
+	FaReact,
+	FaGitAlt,
+	FaGithub,
+	FaCode, FaJava,
 } from 'react-icons/fa';
 import { SiTailwindcss, SiMongodb, SiFirebase, SiTypescript } from 'react-icons/si';
 import { RiSvelteFill } from "react-icons/ri";
@@ -17,12 +17,11 @@ const skills = [
   { name: 'TypeScript', icon: SiTypescript, color: 'text-purple-400' },
 	{ name: 'React Native', icon: FaReact, color: 'text-cyan-400' },
   { name: 'React.js', icon: FaReact, color: 'text-cyan-400' },
-
   { name: 'Svelte', icon: RiSvelteFill, color: 'text-orange-500' },
   { name: 'HTML', icon: FaHtml5, color: 'text-orange-500' },
   { name: 'CSS', icon: FaCss3Alt, color: 'text-blue-500' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-400' },
-  { name: 'MongoDB', icon: SiMongodb, color: 'text-green-500' },
+  { name: 'Java', icon: FaJava, color: 'text-red-400' },
   { name: 'Firebase', icon: SiFirebase, color: 'text-yellow-500' },
   { name: 'Git', icon: FaGitAlt, color: 'text-orange-500' },
   { name: 'GitHub', icon: FaGithub, color: 'text-gray-700 dark:text-white' },
