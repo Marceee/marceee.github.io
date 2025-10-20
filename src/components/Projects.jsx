@@ -2,32 +2,40 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
+	{
+		title: 'Fanomix',
+		description:
+			'AI-powered video creator platform that transforms the way brands generate high-converting video ads',
+		image: '/assets/fanomix.png',
+		tech: ['Svelte', 'Typescript', 'Tailwind'],
+		github: 'https://github.com/marceee',
+		demo: 'https://fanomix.ai/',
+	},
   {
-    title: 'CVNirman_AI',
+    title: 'Elsa Science AB',
     description:
-      'AI-powered resume and cover letter builder using Gemini API and Firebase Auth. Helps generate professional documents effortlessly.',
-    image: '/assets/cvtests.png',
-    tech: ['React', 'TailwindCSS', 'Firebase', 'Gemini API'],
+      'Tool for navigating through life when diagonised with Rheumatic Diseases.',
+    image: '/assets/elsa.png',
+    tech: ['React Native', 'React', 'Typescript','Node JS','GraphQL', 'Android', 'IOS'],
+    github: 'https://github.com/marceee',
+    demo: 'https://www.elsa.science/en/',
+  },
+  {
+    title: 'Addressya AB',
+    description:
+      'Digital addresses for the un-addressed',
+    image: '/assets/addressya.png',
+		tech: ['React Native', 'React', 'Firebase'],
     github: 'https://github.com/marceee',
     demo: 'https://github.com/marceee',
   },
   {
-    title: 'Saahitya 📚 - The Reading App',
-    description:
-      'Modern book app built with vanilla JS and Google Books API. Features personalized recommendations and dark mode.',
-    image: '/assets/saararrara.png',
-    tech: ['HTML', 'CSS', 'JavaScript', 'Google Books API'],
+    title: 'Asante',
+    description: 'Waste management solution',
+    image: '/assets/asante.png',
+    tech: ['Wordpress', 'Payments integration', 'CMS'],
     github: 'https://github.com/marceee',
-    demo: 'https://github.com/marceee',
-  },
-  {
-    title: 'Karan DSA Profile',
-    description:
-      'Personal webpage to showcase my coding and DSA profiles (LeetCode, GFG, etc.) with a clean and responsive UI.',
-    image: '/assets/msn.png',
-    tech: ['HTML', 'TailwindCSS', 'JavaScript'],
-    github: 'https://github.com/marceee',
-    demo: 'https://github.com/marceee',
+    demo: 'https://www.asantewm.com/',
   },
 ];
 
@@ -73,7 +81,7 @@ export default function Projects() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, margin: '-100px' }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10"
         >
           {projects.map((project) => (
             <motion.div
