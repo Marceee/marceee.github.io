@@ -47,7 +47,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="section bg-gradient-to-r from-indigo-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-20"
+      className="section bg-gradient-to-r from-indigo-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-10"
     >
       <div className="container max-w-6xl mx-auto px-4">
         <motion.div

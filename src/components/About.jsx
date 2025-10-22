@@ -19,7 +19,7 @@ export default function About() {
 						Software Engineer with 6+ years of experience building scalable, efficient, and user-focused applications.
 						My core expertise is React, React Native, Svelte.
           </p>
-					<p className="text-lg leading-relaxed mb-8">
+					<p className="text-lg leading-relaxed mb-3">
 						I am passionate about transforming ideas, design into intuitive digital experiences, collaborating closely with teams through every stage of the development cycle, from technical implementation to production.
 						My professional joy creating software that’s not only functional, but an efficient solution that elevates the business.
 					</p>

@@ -8,16 +8,14 @@ const projects = [
 			'AI-powered video creator platform that transforms the way brands generate high-converting video ads',
 		image: '/assets/fanomix.png',
 		tech: ['Svelte', 'Typescript', 'Tailwind'],
-		github: 'https://github.com/marceee',
 		demo: 'https://fanomix.ai/',
 	},
   {
     title: 'Elsa Science AB',
     description:
-      'Tool for navigating through life when diagonised with Rheumatic Diseases.',
+      'Android/IOS app for navigating through life when diagonised with Rheumatic Diseases.',
     image: '/assets/elsa.png',
-    tech: ['React Native', 'React', 'Typescript','Node JS','GraphQL', 'Android', 'IOS'],
-    github: 'https://github.com/marceee',
+    tech: ['React Native', 'React', 'Typescript','Node JS','GraphQL'],
     demo: 'https://www.elsa.science/en/',
   },
   {
@@ -26,7 +24,6 @@ const projects = [
       'Digital addresses for the un-addressed',
     image: '/assets/addressya.png',
 		tech: ['React Native', 'React', 'Firebase'],
-    github: 'https://github.com/marceee',
     demo: 'https://github.com/marceee',
   },
   {
@@ -34,7 +31,6 @@ const projects = [
     description: 'Waste management solution',
     image: '/assets/asante.png',
     tech: ['Wordpress', 'Payments integration', 'CMS'],
-    github: 'https://github.com/marceee',
     demo: 'https://www.asantewm.com/',
   },
 ];
@@ -72,7 +68,7 @@ export default function Projects() {
             Featured Projects
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-xl mx-auto">
-            Showcasing my technical solutions and creative implementations
+            Projects I have contributed to.
           </p>
         </motion.div>
 
