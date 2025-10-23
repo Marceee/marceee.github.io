@@ -3,37 +3,74 @@ import { FaBug } from 'react-icons/fa';
 
 const experiences = [
   {
-    title: 'Software Development Engineer Intern',
-    organization: 'Neoned71 Tech Solutions',
-    period: 'Sept 2024 – Nov 2024',
+    title: 'Frontend Developer',
+    organization: 'Fanomix LLC, UK',
+		location: 'Remote',
+    period: 'November 2024 - May 2025',
     description: (
       <ul className="list-disc ml-5 space-y-2 text-gray-700 dark:text-gray-300">
         <li>
           🧩 Contributed to{' '}
-          <span className="font-semibold text-blue-600">WriterBoard</span> – a{' '}
-          <span className="font-medium text-indigo-600">node-based storytelling platform</span>
+          <span className="font-semibold text-blue-600">Fanomix</span> – a{' '}
+          <span className="font-medium text-indigo-600">web tool for generating short-form UGC-style content using fanomix AI
+ </span>
         </li>
         <li>
-          💻 Engineered core features using{' '}
-          <span className="font-semibold text-purple-600">C++</span> and{' '}
-          <span className="font-semibold text-teal-600">Qt Framework</span>
-        </li>
-        <li>
-          ⚙️ Enhanced performance of{' '}
-          <span className="font-medium text-yellow-600">QGraphicsScene layouts</span> for smoother rendering
-        </li>
-        <li>
-          🗃️ Optimized data structures with{' '}
-          <span className="font-semibold text-green-700">STL</span> and integrated with a{' '}
-          <span className="font-semibold text-blue-700">centralized database</span>
-        </li>
-        <li>
-          🐞 Resolved <span className="text-red-600 font-bold">30+ bugs</span> and boosted platform stability
+          💻 Built core frontend features using{' '}
+          <span className="font-semibold text-purple-600">React, React Native</span>
         </li>
       </ul>
     ),
     icon: FaBug,
   },
+	{
+		title: 'React/React Native Engineer',
+		organization: 'Elsa Science AB, Sweden',
+		location: 'Remote',
+		period: 'Sept 2022 - December 2023',
+		description: (
+			<ul className="list-disc ml-5 space-y-2 text-gray-700 dark:text-gray-300">
+				<li>
+					🧩 Contributed to{' '}
+					<span className="font-semibold text-blue-600">Fanomix</span> – a{' '}
+					<span className="font-medium text-indigo-600">web tool for generating short-form UGC-style content using fanomix AI
+ </span>
+				</li>
+				<li>
+					💻 Built core web and mobile app features using{' '}
+					<span className="font-semibold text-purple-600">React, React Native</span>
+				</li>
+				<li>
+					Features included medicine catalog, scheduler, clinical dashboard support system for medical personnel.
+				</li>
+			</ul>
+		),
+		icon: FaBug,
+	},
+	{
+		title: 'React/React Native Engineer',
+		organization: 'Addressya AB, Sweden',
+		location: 'Remote',
+		period: 'Sept 2022 - December 2023',
+		description: (
+			<ul className="list-disc ml-5 space-y-2 text-gray-700 dark:text-gray-300">
+				<li>
+					🧩 Contributed to{' '}
+					<span className="font-semibold text-blue-600">Fanomix</span> – a{' '}
+					<span className="font-medium text-indigo-600">web tool for generating short-form UGC-style content using fanomix AI
+ </span>
+				</li>
+				<li>
+					💻 Built core web and mobile app features using{' '}
+					<span className="font-semibold text-purple-600">React, React Native</span>
+				</li>
+				<li>
+					Features included medicine catalog, scheduler, clinical dashboard support system for medical personnel.
+				</li>
+			</ul>
+		),
+		icon: FaBug,
+	},
 ];
 
 const container = {
@@ -67,7 +104,7 @@ export default function Experience() {
           className="text-center mb-12 max-w-3xl mx-auto"
         >
           <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-600 to-cyan-500 bg-clip-text text-transparent mb-2">
-            Experiences & Achievements
+            Work Experience
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300">
             From learning foundations to solving real-world challenges.
@@ -121,6 +158,9 @@ export default function Experience() {
                   <div className="flex items-center flex-wrap gap-3 mb-3">
                     <span className="px-3 py-0.5 bg-cyan-100 dark:bg-slate-700 text-cyan-700 dark:text-cyan-400 rounded-full text-sm font-medium">
                       {exp.organization}
+                    </span>
+										<span className="px-3 py-0.5 bg-cyan-100 dark:bg-slate-700 text-black-700 dark:text-black-400 rounded-full text-sm font-medium">
+                      {exp.location}
                     </span>
                     <span className="text-sm text-indigo-600 dark:text-indigo-400 font-medium">
                       {exp.period}

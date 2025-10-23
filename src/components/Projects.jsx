@@ -24,7 +24,6 @@ const projects = [
       'Digital addresses for the un-addressed',
     image: '/assets/addressya.png',
 		tech: ['React Native', 'React', 'Firebase'],
-    demo: 'https://github.com/marceee',
   },
   {
     title: 'Asante',
