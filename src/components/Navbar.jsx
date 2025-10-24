@@ -48,7 +48,7 @@ export default function Navbar() {
             offset={-100}
             className="text-2xl font-bold text-primary cursor-pointer"
           >
-            MS
+            MS Portfolio
           </Link>
 
           {/* Desktop Menu */}
