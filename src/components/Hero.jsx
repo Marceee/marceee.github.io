@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import {FaCode, FaDownload} from 'react-icons/fa';
+import {FaCode, FaDownload, FaEye} from 'react-icons/fa';
 
 const leftVariants = {
   hidden: { opacity: 0, x: -50 },
@@ -32,9 +32,9 @@ const rightVariants = {
 export default function Hero() {
   return (
     <section id="home" className="section pt-20 md:pt-32">
-      <div className="container">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
-          <motion.div
+			<div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center text-center md:text-left">
+			<div className="flex flex-col md:flex-row items-center justify-center gap-20 text-center md:text-left">
+				<motion.div
             variants={leftVariants}
             initial="hidden"
             animate="visible"
@@ -59,8 +59,9 @@ export default function Hero() {
 									href="assets/Marcellinus_Sande_Resume.pdf"
 									target="_blank"
 									rel="noopener noreferrer"
-									className="inline-flex item9i9i9immikmju s-center gap-3 bg-purple-600 hover:bg-purple-700 transition-colors duration-300 text-white font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg"
+									className="inline-flex items-center gap-3 bg-purple-600 hover:bg-purple-700 transition-colors duration-300 text-white font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg"
 								>
+									<FaEye className="text-xl" />
 									View Resume
 								</a>
 
