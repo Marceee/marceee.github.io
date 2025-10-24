@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { FaBug } from 'react-icons/fa';
+import {FaBug, FaMicrochip, FaPills} from 'react-icons/fa';
+import {FaLocationDot} from "react-icons/fa6";
 
 const experiences = [
   {
@@ -12,16 +13,16 @@ const experiences = [
         <li>
           🧩 Contributed to{' '}
           <span className="font-semibold text-blue-600">Fanomix</span> – a{' '}
-          <span className="font-medium text-indigo-600">web tool for generating short-form UGC-style content using fanomix AI
+          <span className="font-medium text-indigo-600">web tool for generating short-form UGC-style content using fanomix AI.
  </span>
         </li>
         <li>
           💻 Built core frontend features using{' '}
-          <span className="font-semibold text-purple-600">React, React Native</span>
+          <span className="font-semibold text-purple-600">Svelte</span>
         </li>
       </ul>
     ),
-    icon: FaBug,
+    icon: FaMicrochip,
   },
 	{
 		title: 'React/React Native Engineer',
@@ -32,23 +33,23 @@ const experiences = [
 			<ul className="list-disc ml-5 space-y-2 text-gray-700 dark:text-gray-300">
 				<li>
 					🧩 Contributed to{' '}
-					<span className="font-semibold text-blue-600">Fanomix</span> – a{' '}
-					<span className="font-medium text-indigo-600">web tool for generating short-form UGC-style content using fanomix AI
+					<span className="font-semibold text-blue-600">Elsa</span> – a{' '}
+					<span className="font-medium text-indigo-600">web and mobile apps to support individuals diagnosed with rheumatic related illnesses.
  </span>
 				</li>
 				<li>
 					💻 Built core web and mobile app features using{' '}
-					<span className="font-semibold text-purple-600">React, React Native</span>
+					<span className="font-semibold text-purple-600">React, React Native.</span>
 				</li>
 				<li>
 					Features included medicine catalog, scheduler, clinical dashboard support system for medical personnel.
 				</li>
 			</ul>
 		),
-		icon: FaBug,
+		icon: FaPills,
 	},
 	{
-		title: 'React/React Native Engineer',
+		title: 'React Native Engineer',
 		organization: 'Addressya AB, Sweden',
 		location: 'Remote',
 		period: 'Sept 2022 - December 2023',
@@ -56,20 +57,17 @@ const experiences = [
 			<ul className="list-disc ml-5 space-y-2 text-gray-700 dark:text-gray-300">
 				<li>
 					🧩 Contributed to{' '}
-					<span className="font-semibold text-blue-600">Fanomix</span> – a{' '}
-					<span className="font-medium text-indigo-600">web tool for generating short-form UGC-style content using fanomix AI
+					<span className="font-semibold text-blue-600">Addressya</span> – a{' '}
+					<span className="font-medium text-indigo-600">mobile tool for creating and managing addresses for the un-addressed.
  </span>
 				</li>
 				<li>
-					💻 Built core web and mobile app features using{' '}
-					<span className="font-semibold text-purple-600">React, React Native</span>
-				</li>
-				<li>
-					Features included medicine catalog, scheduler, clinical dashboard support system for medical personnel.
+					💻 Built core mobile app features using{' '}
+					<span className="font-semibold text-purple-600">React Native</span>
 				</li>
 			</ul>
 		),
-		icon: FaBug,
+		icon: FaLocationDot,
 	},
 ];
 
