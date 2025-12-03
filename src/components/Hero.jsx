@@ -45,12 +45,12 @@ export default function Hero() {
               <span className="text-primary">Marcellinus Sande</span>
             </motion.h1>
 
-            <motion.h2 variants={childVariant} className="text-xl md:text-2xl mb-6 text-gray-600 dark:text-gray-400">
-              Software Developer
-            </motion.h2>
+            {/*<motion.h2 variants={childVariant} className="text-xl md:text-2xl mb-6 text-gray-600 dark:text-gray-400">*/}
+            {/*  Software Developer*/}
+            {/*</motion.h2>*/}
 
             <motion.p variants={childVariant} className="text-lg mb-8 text-gray-700 dark:text-gray-300">
-                React, React Native, Svelte, Typescript
+                React, React Native, Svelte, Javascript/Typescript
               {/*I build modern, scalable, and user-friendly websites and software.*/}
             </motion.p>
 
