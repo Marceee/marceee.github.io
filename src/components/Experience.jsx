@@ -119,9 +119,6 @@ export default function Experience() {
           <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-600 to-cyan-500 bg-clip-text text-transparent mb-2">
             Work Experience
           </h2>
-          <p className="text-lg text-slate-600 dark:text-slate-300">
-            From learning foundations to solving real-world challenges.
-          </p>
         </motion.div>
 
         <motion.div
