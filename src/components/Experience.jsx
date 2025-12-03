@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import {FaBug, FaMicrochip, FaPills} from 'react-icons/fa';
+import {FaMicrochip, FaMobile, FaPills} from 'react-icons/fa';
 import {FaLocationDot} from "react-icons/fa6";
 
 const experiences = [
@@ -52,7 +52,7 @@ const experiences = [
 		title: 'React Native Engineer',
 		organization: 'Addressya AB, Sweden',
 		location: 'Remote',
-		period: 'Sept 2022 - December 2023',
+		period: 'March 2018 - May 2022',
 		description: (
 			<ul className="list-disc ml-5 space-y-2 text-gray-700 dark:text-gray-300">
 				<li>
@@ -68,6 +68,21 @@ const experiences = [
 			</ul>
 		),
 		icon: FaLocationDot,
+	},
+	{
+		title: 'Frontend Developer',
+		organization: 'Vinaj Websites, Kampala',
+		location: 'Onsite',
+		period: 'Jan 2016 - Jun 2017',
+		description: (
+			<ul className="list-disc ml-5 space-y-2 text-gray-700 dark:text-gray-300">
+				<li>
+					💻 Built core websites and mobile apps using{' '}
+					<span className="font-semibold text-purple-600">Python, Java, Shopify, Wordpress</span>
+				</li>
+			</ul>
+		),
+		icon: FaMobile,
 	},
 ];
 
